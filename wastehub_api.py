@@ -142,7 +142,7 @@ if os.path.exists("hazard_type_classes.json"):
     LABELS = [name.capitalize() for name in class_names]
 else:
     # Default labels (should match training order)
-    LABELS = ["Oil", "Paints", "Pesticides", "Septics"]
+    LABELS = ["Oil", "Septics"]
 
 # Threshold for hazardous classification (0.5 is standard, but can be adjusted)
 HAZARD_THRESHOLD = 0.5
